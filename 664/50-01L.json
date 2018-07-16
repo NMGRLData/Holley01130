@@ -1,0 +1,151 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 1, 
+    "analysis_type": "unknown", 
+    "analyst_name": "MHeizler", 
+    "comment": "C:7 Sericite, 5.15 mg", 
+    "commit": "a0ab0abf6d86f963266f9c0167d6e83e2d099dfc", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 10, 
+            "hash_id": -6394425563567770508, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 1, 
+            "start_count": 5, 
+            "teststr": "L2(CDD).deflection==3250"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L2(CDD)": {
+            "deflection": 0.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2018-07-15T17:58:13", 
+                "title": "iServer Hum.", 
+                "value": 50.4
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2018-07-15T17:14:21", 
+                "title": "Building", 
+                "value": 98.8
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2018-07-15T17:37:33", 
+                "title": "Lab", 
+                "value": 88.3
+            }, 
+            {
+                "device": "MicroBoneGaugeController", 
+                "name": "JanDecabinPressure", 
+                "pub_date": "2018-07-15T17:54:42", 
+                "title": "Jan Decabin", 
+                "value": 5.8
+            }
+        ], 
+        "lab_temperatures": [
+            {
+                "device": "Coldfinger", 
+                "name": "ColdFinger Temp.", 
+                "pub_date": "2018-07-15T16:29:21", 
+                "title": "Cold Finger", 
+                "value": -195.0
+            }, 
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Temp.", 
+                "pub_date": "2018-07-15T13:50:55", 
+                "title": "iServer Temp.", 
+                "value": 73.9
+            }, 
+            {
+                "device": "Chiller", 
+                "name": "Coolant Temp.", 
+                "pub_date": "2018-07-15T17:52:46", 
+                "title": "Coolant", 
+                "value": 16.0
+            }
+        ]
+    }, 
+    "experiment_queue_name": "CurrentExperiment", 
+    "extraction": "felix_diode.py", 
+    "identifier": "66450", 
+    "increment": 11, 
+    "instrument_name": "", 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NM-297", 
+    "irradiation_level": "C", 
+    "irradiation_position": 7, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "L2(CDD)", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L1", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "AX", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "H1", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H2", 
+            "name": "Ar40"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Felix", 
+    "material": "Sericite", 
+    "measurement": "felix_analysis340_60_CDD_center.py", 
+    "post_equilibration": "felix_pump_extraction_line.py", 
+    "post_measurement": "felix_pump_ms.py", 
+    "project": "Holley01130", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Holley01130", 
+    "sample": "LT 1070-17", 
+    "source": {
+        "emission": 843.889, 
+        "trap": 248.495
+    }, 
+    "spec_sha": "62a71e829621f664e408df328844a8143001a615", 
+    "timestamp": "2018-07-15T18:01:12.283929", 
+    "tripped_conditional": null, 
+    "username": "MHeizler", 
+    "uuid": "047b936b-cf5a-485a-9ba7-4a56f2ed1693", 
+    "whiff_result": null
+}
